@@ -1,4 +1,4 @@
-INSERT INTO `with 
+	with 
 		fresh as
 		(
 		select 
@@ -22,5 +22,5 @@ INSERT INTO `with
 		select round(f.amount_of_fresh/(select count(rtm.movie_title) from rooten_tomatoes_movies rtm),2)*100 as percentage_of_fresh 
 		,round(r.amount_of_rooten/(select count(rtm.movie_title) from rooten_tomatoes_movies rtm),2)*100 as percentage_of_rotten
 		,round(cf.amount_of_certified_fresh/(select count(rtm.movie_title) from rooten_tomatoes_movies rtm),2)*100 as percentage_of_certified_fresh
-		from fresh f, rooten r, certified_fresh cf` (percentage_of_fresh,percentage_of_rotten,percentage_of_certified_fresh) VALUES
-	 (39.00,43.00,18.00);
+		from fresh f, rooten r, certified_fresh cf` (percentage_of_fresh,percentage_of_rotten,percentage_of_certified_fresh)
+	 
