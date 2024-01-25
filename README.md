@@ -4,4 +4,5 @@ studio name, tomatometer status, tomatometer rating, tomatometer count, audience
 
 Our analysis is comprised of 5 sql queries:
 
-1.  
+1.  Movies titles that are most different as for tomatometer and audience rating
+2.  Amount of movies released in one year 
