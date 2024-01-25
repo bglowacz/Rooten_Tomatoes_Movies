@@ -1,6 +1,6 @@
 select 	
-		Release_Date 		as day
-		,max(amount_of_movies) as amount_of_movies_per_one_day
+	Release_Date 	as day
+	,max(amount_of_movies) as amount_of_movies_per_one_day
 from 	(select
 		Release_Date
 		, date_format(Release_Date, "%Y")
