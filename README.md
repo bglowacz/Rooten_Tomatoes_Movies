@@ -3,5 +3,4 @@ movie title, movie info, critics consensus, rating, genre, directors, writers, c
 studio name, tomatometer status, tomatometer rating, tomatometer count, audience rating and audience count. 
 
 Our analysis is comprised of 5 sql queries:
-
 1. 
